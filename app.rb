@@ -16,4 +16,3 @@ post '/create' do
   Bookmark.create(title: params[:title], url: params[:url])
   redirect '/'
 end
-
